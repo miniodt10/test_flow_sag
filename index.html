@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-background": "#1c1c1c",
+              "secondary-container": "#e8f5e9",
+              "outline": "#757875",
+              "tertiary-fixed": "#e7dfd8",
+              "primary-fixed": "#c8e6c9",
+              "surface": "#fcfdfc",
+              "surface-container-high": "#e1e4e1",
+              "surface-tint": "#2e7d32",
+              "background": "#fcfdfc",
+              "primary": "#2e7d32",
+              "error-container": "#ffdad6",
+              "surface-dim": "#d8dbd8",
+              "inverse-primary": "#81c784",
+              "on-secondary-fixed-variant": "#434944",
+              "on-primary-fixed": "#002107",
+              "on-error-container": "#410002",
+              "inverse-on-surface": "#f0f1f0",
+              "surface-variant": "#dee5dd",
+              "on-tertiary-fixed-variant": "#4d4639",
+              "tertiary": "#6d5e00",
+              "on-surface": "#1a1c1a",
+              "surface-bright": "#fcfdfc",
+              "inverse-surface": "#2f312f",
+              "on-primary-fixed-variant": "#00531b",
+              "surface-container-lowest": "#ffffff",
+              "secondary": "#526350",
+              "on-surface-variant": "#424941",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "primary-fixed-dim": "#81c784",
+              "on-primary-container": "#002107",
+              "primary-container": "#c8e6c9",
+              "on-secondary-container": "#101f10",
+              "on-tertiary": "#ffffff",
+              "on-tertiary-container": "#211b00",
+              "on-tertiary-fixed": "#211b00",
+              "on-secondary-fixed": "#101f10",
+              "tertiary-container": "#ffecb3",
+              "secondary-fixed-dim": "#baccb3",
+              "surface-container-low": "#f1f4f1",
+              "outline-variant": "#c2c9c1",
+              "surface-container": "#ebedea",
+              "on-error": "#ffffff",
+              "surface-container-highest": "#e1e4e1",
+              "on-secondary": "#ffffff",
+              "secondary-fixed": "#d6e8ce",
+              "earth-brown": "#5d4037",
+              "fresh-green": "#4caf50"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Inter"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "0.75rem",
+              "xl": "1rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container antialiased">
+<!-- Shared Component: TopNavBar (from COMPONENTS_5) -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tight text-green-800 dark:text-green-400 font-headline">
+            Minioo
+        </div>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-manrope text-green-800 dark:text-green-400 font-bold border-b-2 border-green-800 pb-1" href="#">Innovations</a>
+<a class="font-manrope text-stone-600 dark:text-stone-400 hover:text-green-700 transition-colors" href="#">Process</a>
+<a class="font-manrope text-stone-600 dark:text-stone-400 hover:text-green-700 transition-colors" href="#">About</a>
+<a class="font-manrope text-stone-600 dark:text-stone-400 hover:text-green-700 transition-colors" href="#">Partners</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 font-semibold rounded-lg transition-transform active:scale-95 duration-200">
+            Get Started
+        </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Modern Agriculture" class="w-full h-full object-cover" data-alt="Vibrant green indoor vertical farm with lush leafy greens and soft warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_sP7jBNrz9Pgaoxuc-BY3FE3w23nijnYjTPrQFgCaQibJJElwfQhgTB-kfUuniSPmD0emeAGrj_Y9e9j3UHFIku4Fjk_BU-KGl9Zs3jp7Ud5ioKfvbWeBCBb18yDKP4wN3dJ8857bSaJiwU-10NmP--comlOhfQrGunghRrfiNBQtyq_LJpDbg7RRRuhnYi2bR4r0n9f8jjSIFmH-CGdMNGCR3cinAblKztbu9KPUeimF6KFKOqXbvWarA2SOL-_YpbgnZPuq8UPd"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
+<div class="max-w-3xl">
+<span class="inline-block font-label text-xs uppercase tracking-[0.3em] text-primary font-bold mb-6">Kỷ Nguyên Nông Nghiệp Mới</span>
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter text-on-background leading-[0.9] mb-8">
+                    Cách mạng hóa <br/> Nông nghiệp với <span class="text-primary italic">Minioo</span>
+</h1>
+<p class="font-body text-xl text-secondary max-w-xl mb-10 leading-relaxed">
+                    Kết hợp tinh hoa của đất mẹ với độ chính xác tuyệt đối từ công nghệ AI. Chúng tôi định nghĩa lại cách thế giới canh tác bền vững.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 font-bold text-lg rounded-lg hover:shadow-xl transition-all active:scale-95">
+                        Khám phá ngay
+                    </button>
+<button class="bg-earth-brown text-white px-8 py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-colors">
+                        Xem Công Nghệ
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Innovations Section (Bento Grid) -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div>
+<h2 class="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-4">Công Nghệ Đột Phá</h2>
+<p class="font-body text-lg text-secondary max-w-lg">Ba trụ cột cốt lõi tạo nên hệ sinh thái nông nghiệp chính xác của Minioo.</p>
+</div>
+<div class="font-label text-sm text-outline tracking-widest uppercase">Innovations / 2024</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[600px]">
+<!-- IoT Card -->
+<div class="md:col-span-4 bg-surface-container-lowest p-10 flex flex-col justify-between group overflow-hidden relative border border-outline-variant/15 rounded-xl">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="sensors">sensors</span>
+<h3 class="font-headline text-2xl font-bold mb-4">Cảm biến IoT</h3>
+<p class="font-body text-secondary">Hệ thống mạng lưới cảm biến siêu nhạy theo dõi độ ẩm, dinh dưỡng và sức khỏe cây trồng theo thời gian thực.</p>
+</div>
+<img class="absolute bottom-[-10%] right-[-10%] w-2/3 opacity-10 group-hover:opacity-20 transition-opacity" data-alt="Microchip patterns mixed with natural leaf veins in green and earth tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs_4A8mghN1H5gqvPWnBWpbCsF-k7qYDdQAduPyfrqVSZTtwfmOI6O7NFVgZvSxS-PVYv-8GWz-4lsmgtLa5GBGe2Af4KeDVnePb5syt6ObdZ3ikWu4sXbT1ZNh_8Z7fraNr8hv-yJxh4j5djdSXMlJjb_FDGLEim8-m3hxagQz2fkqAoT67is6_OChbEcqJVvwb-j0b480BHULPXPEH0OaJp-e-QJrryWW8TRTJWDPzHUnLgK_KfVh-j3Va2exPkR_IXs-ENUbaIv"/>
+</div>
+<!-- AI Analytics Card -->
+<div class="md:col-span-5 bg-secondary-container text-on-surface p-10 flex flex-col justify-between border border-outline-variant/15 rounded-xl">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="psychology">psychology</span>
+<h3 class="font-headline text-3xl font-bold mb-4">Phân tích Dữ liệu AI</h3>
+<p class="font-body text-lg">Thuật toán máy học dự đoán sản lượng và phát hiện sớm rủi ro sâu bệnh trước 14 ngày.</p>
+</div>
+<div class="mt-8">
+<div class="bg-surface-container-lowest p-6 flex items-center justify-between rounded-lg">
+<span class="font-label text-xs uppercase font-bold tracking-widest">Độ chính xác dự báo</span>
+<span class="text-primary font-headline text-2xl font-black">98.4%</span>
+</div>
+</div>
+</div>
+<!-- Automation Card -->
+<div class="md:col-span-3 bg-earth-brown text-white p-10 flex flex-col justify-between relative overflow-hidden rounded-xl">
+<div class="absolute inset-0 bg-gradient-to-br from-earth-brown to-stone-800 opacity-50"></div>
+<div class="relative z-10">
+<span class="material-symbols-outlined text-4xl text-fresh-green mb-6" data-icon="precision_manufacturing">precision_manufacturing</span>
+<h3 class="font-headline text-2xl font-bold mb-4">Tự động hóa Chính xác</h3>
+<p class="font-body opacity-90">Robot canh tác và drone phun thuốc tự động giúp tiết kiệm 40% chi phí vận hành.</p>
+</div>
+<div class="relative z-10">
+<button class="text-white font-bold flex items-center gap-2 group">
+                            Tìm hiểu thêm
+                            <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="py-32 px-8 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto">
+<div class="text-center mb-24">
+<h2 class="font-headline text-5xl md:text-6xl font-bold tracking-tighter mb-6">Quy trình Của Chúng tôi</h2>
+<p class="font-body text-xl text-secondary max-w-2xl mx-auto">Sự kết hợp hoàn hảo giữa chu trình tự nhiên và hiệu suất công nghiệp.</p>
+</div>
+<div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+<!-- Step 1 -->
+<div class="flex-1 text-center px-6">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="potted_plant">potted_plant</span>
+</div>
+<h4 class="font-headline text-xl font-bold mb-3">01. Gieo mầm Kỹ thuật</h4>
+<p class="font-body text-secondary text-sm">Hạt giống được chọn lọc qua phân tích gene để tối ưu khả năng thích nghi.</p>
+</div>
+<div class="hidden md:block w-16 h-px bg-outline-variant/30"></div>
+<!-- Step 2 -->
+<div class="flex-1 text-center px-6">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="monitoring">monitoring</span>
+</div>
+<h4 class="font-headline text-xl font-bold mb-3">02. Giám sát Liên tục</h4>
+<p class="font-body text-secondary text-sm">Dữ liệu được cập nhật từng giây từ lòng đất đến bầu trời.</p>
+</div>
+<div class="hidden md:block w-16 h-px bg-outline-variant/30"></div>
+<!-- Step 3 -->
+<div class="flex-1 text-center px-6">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="water_drop">water_drop</span>
+</div>
+<h4 class="font-headline text-xl font-bold mb-3">03. Canh tác Thông minh</h4>
+<p class="font-body text-secondary text-sm">Hệ thống tưới và bón phân tự động hóa dựa trên nhu cầu thực tế của cây.</p>
+</div>
+<div class="hidden md:block w-16 h-px bg-outline-variant/30"></div>
+<!-- Step 4 -->
+<div class="flex-1 text-center px-6">
+<div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-8">
+<span class="material-symbols-outlined text-on-primary text-3xl" data-icon="agriculture">agriculture</span>
+</div>
+<h4 class="font-headline text-xl font-bold mb-3">04. Thu hoạch Tối ưu</h4>
+<p class="font-body text-secondary text-sm">Thu hoạch đúng thời điểm đạt giá trị dinh dưỡng cao nhất.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-32 px-8 overflow-hidden bg-background">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2 relative">
+<div class="relative z-10 rounded-xl overflow-hidden shadow-2xl">
+<img alt="Digital Agronomist" class="w-full aspect-[4/5] object-cover" data-alt="Agronomist examining lush green crops in a high-tech field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3uMjBtGnBa2dmbUFqiY1VNBZHxDMhia1k9jPffubWkQL-krP4vMRuNUI10x687BsXMm4fXPnEAN-iPPEYQkZItwrqJDGLl6kV9cz-XfJVDA5j2hMdZkx6xc_04e_C4Gu_AM-TodXnqEmzvaWrwsFg-WPDQQJsFB3PC7Okk-gZe0EboXfR13xi625zbCK1ifB4UQDjhZnzltURjuI2ICaqI11NB_mG1LU1sEvUYZGptd4LVWNuSoXNw-vDRiN-R6WMbpf4VGOyiQKz"/>
+</div>
+<div class="absolute -bottom-10 -right-10 w-64 h-64 bg-primary-container/30 rounded-full blur-3xl -z-10"></div>
+<div class="absolute top-10 -left-10 p-8 bg-surface-container-lowest shadow-lg max-w-[240px] z-20 rounded-lg border-l-8 border-earth-brown">
+<p class="font-headline text-lg font-bold leading-tight italic text-earth-brown">"Chúng ta không chỉ trồng cây, chúng ta đang lập trình tương lai của lương thực."</p>
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<h2 class="font-headline text-5xl font-bold tracking-tighter mb-8">Tầm nhìn của 'Digital Agronomist'</h2>
+<p class="font-body text-xl text-secondary mb-8 leading-relaxed">
+                    Minioo tin rằng nông dân hiện đại là những nhà khoa học thực thụ. Với giải pháp "Nhà nông kỹ thuật số", chúng tôi trao quyền cho các đối tác thông qua dữ liệu minh bạch và công nghệ vận hành tự động.
+                </p>
+<p class="font-body text-lg text-secondary mb-12 italic border-l-4 border-fresh-green pl-6">
+                    Mục tiêu của chúng tôi là tạo ra một hệ sinh thái nông nghiệp bền vững, giảm thiểu tác động môi trường trong khi vẫn đảm bảo an ninh lương thực toàn cầu.
+                </p>
+<div class="grid grid-cols-2 gap-8">
+<div>
+<div class="text-3xl font-black text-primary font-headline mb-1">500+</div>
+<div class="font-label text-xs uppercase text-outline font-bold tracking-widest">Trang trại đối tác</div>
+</div>
+<div>
+<div class="text-3xl font-black text-primary font-headline mb-1">30%</div>
+<div class="font-label text-xs uppercase text-outline font-bold tracking-widest">Giảm lượng nước tiêu thụ</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-8 bg-surface-container-highest">
+<div class="max-w-screen-xl mx-auto bg-earth-brown text-white p-12 md:p-24 relative overflow-hidden rounded-xl">
+<div class="relative z-10 text-center max-w-3xl mx-auto">
+<h2 class="font-headline text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-white">Sẵn sàng nâng tầm năng suất?</h2>
+<p class="font-body text-xl mb-12 opacity-90">Hãy trở thành đối tác của Minioo để cùng kiến tạo nền nông nghiệp thông minh tại Việt Nam.</p>
+<div class="flex flex-wrap justify-center gap-6">
+<button class="bg-fresh-green text-white px-10 py-5 font-bold text-lg rounded-lg hover:bg-green-600 transition-colors">
+                        Liên hệ Hợp tác
+                    </button>
+<button class="border border-white/30 text-white px-10 py-5 font-bold text-lg rounded-lg hover:bg-white/10 transition-colors">
+                        Tải Brochure Kỹ thuật
+                    </button>
+</div>
+</div>
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none text-fresh-green">
+<svg viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<path d="M0,400 L400,400 L400,0 C300,100 200,50 100,150 C50,200 0,300 0,400 Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+</section>
+</main>
+<!-- Shared Component: Footer (from COMPONENTS_5) -->
+<footer class="bg-stone-100 dark:bg-stone-900 w-full mt-20 rounded-t-3xl py-16 px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="flex flex-col gap-6">
+<div class="text-xl font-bold text-stone-800 dark:text-stone-100">Minioo</div>
+<p class="font-manrope text-sm text-stone-500 dark:text-stone-400 leading-relaxed">Pioneering the intersection of soil intelligence and computational precision for a thriving planet.</p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-manrope text-sm font-bold text-green-800 dark:text-green-400 uppercase tracking-widest">Company</span>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Innovations</a>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Global Fleet</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-manrope text-sm font-bold text-green-800 dark:text-green-400 uppercase tracking-widest">Legal</span>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-manrope text-sm font-bold text-green-800 dark:text-green-400 uppercase tracking-widest">Support</span>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Contact Support</a>
+<a class="font-manrope text-sm text-stone-500 dark:text-stone-400 hover:text-green-800 underline-offset-4 hover:underline decoration-green-800/30 transition-opacity opacity-80 hover:opacity-100" href="#">Documentation</a>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-stone-200 dark:border-stone-800 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="font-manrope text-sm text-stone-500 dark:text-stone-400">
+            © 2024 Minioo Agrotech. Precision in every seed.
+        </div>
+<div class="flex gap-6 text-stone-500 dark:text-stone-400">
+<span class="material-symbols-outlined hover:text-green-800 cursor-pointer transition-colors" data-icon="language">language</span>
+<span class="material-symbols-outlined hover:text-green-800 cursor-pointer transition-colors" data-icon="public">public</span>
+</div>
+</div>
+</footer>
+</body></html>
